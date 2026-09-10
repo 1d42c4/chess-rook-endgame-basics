@@ -1,0 +1,71 @@
+[Event "Rook Endgames That Make Sense / 10.1A"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "10.1"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "5r2/6k1/8/1P6/8/8/6K1/R7 w - - 0 1"]
+[SetUp "1"]
+
+{ A rook behind its own passed pawn can support the pawn as it advances. But activity, king support and the opponent's blockade determine whether the pawn can actually promote. } 1. Rb1 Rb8 2. Kf3 { Illustrative line. Rb1 supports the b-pawn along its file. After ...Rb8, Kf3 begins to bring the king toward the center. White should improve the cooperation of king, rook and pawn instead of pushing automatically. Both this starting position and the sample continuation are tablebase draws with best play. The lesson demonstrates a useful arrangement, not a guarantee that an extra pawn wins. Black's active rook and timely king approach can neutralize the passer. } *
+
+[Event "Rook Endgames That Make Sense / 10.1B"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "10.1"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "1r6/6k1/8/1P6/8/8/6K1/1R6 w - - 0 1"]
+[SetUp "1"]
+
+{ Exercise. Try the questions in the book before reading this line. } 1. Kf3 Kf6 2. Ke4 { Illustrative line. No. The black rook occupies the promotion square and blocks the file. Even after the pawn advances, White must resolve that blockade. Kf3 begins centralizing the king. After ...Kf6, Ke4 moves it toward the pawn and potential contact with Black's king. The rook continues supporting the pawn from behind. No. The entire sample remains drawn with correct defense. The practical goal is to coordinate and create problems while recognizing that the defender has adequate resources. Calling every extra-pawn rook ending won would teach the wrong expectations. } *
+
+[Event "Rook Endgames That Make Sense / 10.2A"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "10.2"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "4k3/R7/7r/4K3/4P3/8/8/8 b - - 0 1"]
+[SetUp "1"]
+
+{ The Philidor defense uses two stages: deny the attacking king entry across the sixth rank, then check from behind after the pawn advances far enough to obstruct its own king's shelter. } 1... Rb6 2. Kf5 Rh6 3. e5 Rb6 4. e6 Rb1 5. Ke5 Re1+ { Illustrative line. Black waits along the sixth rank: ...Rb6 Kf5 ...Rh6 e5 ...Rb6. The rook still prevents the white king from reaching the sixth rank. After e6, the pawn itself stands on that rank, and Black switches to ...Rb1. Now Ke5 is answered by ...Re1+, checking from behind. The white pawn on e6 interferes with the king's ability to find shelter in front of it. Every step of this exact demonstration remains a tablebase draw. The timing of the switch is the main idea. } *
+
+[Event "Rook Endgames That Make Sense / 10.2B"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "10.2"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "4k3/R7/4P2r/5K2/8/8/8/8 b - - 0 1"]
+[SetUp "1"]
+
+{ Exercise. Try the questions in the book before reading this line. } 1... Rh1 2. Ke5 Re1+ { Illustrative line. The pawn is already on e6. White has committed it to the sixth rank, the transition point illustrated in Model A. ...Rh1 switches to the rear. It creates checking distance and prepares checks along the file of the white king. The exact position is drawn with correct defense. After Ke5, ...Re1+ checks from behind. Black must continue choosing checks and king squares accurately; this short line explains the method rather than enumerating every branch of the ending. Replay it from Black's side and verify that the drawing result is maintained. } *
+
+[Event "Rook Endgames That Make Sense / 10.3A"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "10.3"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "4K3/4P2k/8/8/8/8/r7/3R4 w - - 0 1"]
+[SetUp "1"]
+
+{ In the Lucena position, a pawn on the seventh rank needs its king to step away from promotion. Preparing the rook on the fourth rank lets it later block the checks and protect the king. } 1. Rd4 Ra1 2. Kf7 Rf1+ 3. Ke6 Re1+ 4. Kf6 Rf1+ 5. Kg5 Rg1+ 6. Rg4 { Illustrative line. Rd4 prepares the bridge. After ...Ra1 Kf7, Black checks with ...Rf1+. White goes Ke6, meets ...Re1+ with Kf6, and answers ...Rf1+ with Kg5. Now ...Rg1+ is met by Rg4. The king on g5 protects the blocking rook on g4. If ...Rxg4+, Kxg4 leaves a winning king-and-pawn ending; otherwise White can escape the checks and promote. The king and rook must cooperate at the final square. Every step of this demonstrated line preserves a tablebase win. } *
+
+[Event "Rook Endgames That Make Sense / 10.3B"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "10.3"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "3K4/k2P4/8/8/8/8/7r/4R3 w - - 0 1"]
+[SetUp "1"]
+
+{ Exercise. Try the questions in the book before reading this line. } 1. Re4 Rh1 2. Kc7 Rc1+ 3. Kd6 Rd1+ 4. Kc6 Rc1+ 5. Kb5 Rb1+ 6. Rb4 { Illustrative line. Re4 prepares a fourth-rank shield. The position is the left-right mirror of Model A, so the files change while the cooperation stays the same. After ...Rh1 Kc7 Rc1+ Kd6 Rd1+ Kc6 Rc1+ Kb5 Rb1+, Rb4 interposes. Work through every check on a board: the king changes file, and the defending rook follows. The king on b5 protects the rook on b4. After ...Rxb4+, Kxb4 leaves a winning king-and-pawn ending. If Black keeps the rook, White has stopped the checking sequence while preserving the promotion threat. The tablebase confirms the illustrated route keeps the win throughout. } *
